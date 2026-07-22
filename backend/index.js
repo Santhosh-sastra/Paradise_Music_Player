@@ -14,7 +14,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: "http://localhost:5173", //particularily only this origin can access
+    origin: "https://paradise-music-player-frontend.vercel.app/", //particularily only this origin can access
     credentials: true,
   }),
 );
