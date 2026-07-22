@@ -12,7 +12,7 @@ import {
   logout,
   setLoading,
 } from "./redux/slices/authSlice";
-import ResetPassword from "./components/auth/ResetPAssword";
+import ResetPassword from "./components/auth/ResetPassword";
 
 function App() {
   const dispatch = useDispatch();
