@@ -14,7 +14,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: "https://paradise-music-player-frontend.vercel.app/", //particularily only this origin can access
+    origin: "https://paradise-music-player-frontend.vercel.app", //particularily only this origin can access
     credentials: true,
   }),
 );
